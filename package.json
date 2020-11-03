@@ -1,0 +1,22 @@
+{
+  "name": "dyer",
+  "version": "1.0.1",
+  "main": "main.js",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^10.1.5",
+    "electron-builder": "^22.9.1"
+  },
+  "dependencies": {
+    "electron-updater": "^4.3.5"
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder build --win --publish never",
+    "deploy": "electron-builder build --win --publish always"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chris125964/dyer.git"
+  }
+}
